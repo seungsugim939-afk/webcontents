@@ -2,30 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>저를 소개합니다</title>
-        
+        <title>자기소개서(구조화적용)</title>
     </head>
     <body>
-        <div id="header">
-            <h2>about me</h2>
-            <p>안녕하세요. 제이름은 김승수 입니다. 올해 입학한 새내기입니다.
-                다양한 관심분야와 취미활동을 하고 있습니다. 즐거운 하루 되세요~
-            </p>
-                <audio src="media/EmbraceableYou.mp3" controls loop></audio>
-        </div>
-
-        <div id="navigation">
+        <header>
+            <h1>about me</h1>
+            <P>안녕하세요. 제이름은 김승수 입니다. 올해 입학한 새내기입니다.
+                다양한 관심분야와 취미활동을 하고 있습니다. 즐거운 하루 되세요~</P>
+        </header>
+        <nav>
             <h2>목차</h2>
             <ul>
                 <li><a href="#interest">관심분야</a></li>
                 <li><a href="#hobby">취미활동</a></li>
-                <li><a href="#family">가족구성원</a></li>
-
-      
-        <div id="container">
-            <div>
-                <h2 id="interest"><a href="관심분야" target="_blank">
-                관심분야</a></h2>
+                <li><a href="#timetable">강의시간표</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article id="interest">
+                <h2>관심분야</h2>
                 <p><h3>인공지능(AI)</h3>
                     <ul>
                         <li>머신러닝(machine learning)</li>
@@ -46,30 +41,35 @@
                         <li>중첩(Superposition)</li>
                         <li>얽힘(Entanglement)</li>
                     </ul>
-                
                 </p>
-            </div>
-
-            <DIV>
-                <H2 ID="hobby"><a href="취미활동" target="_blank">취미활동</a></H2>
-                <p>저의 취미활동은 축구, 게임, 운동하기 입니다</p>
-                <img src="media2/축구.jpg" width="30" height="30"alt="축구">
-                <img src="media2/게임.jpg" width="30" height="30"alt="게임">
-                <img src="media2/운동.jpg" width="30" height="30"alt="운동">
-                
-            </DIV>
-
-            <div>
-                <H2 ID="family"><a href="가족구성원" target="_blank">가족구성원</a></H2>
-                <p>저는 아버지 어머니 여동생 남동생 할머니와 함께 살고있습니다</p>
-                <ul>
-                    <li>아버지, 어머니는 사업을 하십니다.</li>
-                    <li>여동생은 고등학교3학년이고, 남동생은 중학교2학년입니다.</li>
-                    <li>할머니는 저와 제 동생들을 돌봐주십니다.</li>
-                </ul>
-            </div> 
-                </p>
-            </DIV>
-        </div>
+            </article>
+            <article id="hobby">
+                <h2>취미활동</h2>
+                <img src="media2/축구.jpg" width="200" height="140"alt="축구">
+                <img src="media2/게임.jpg" width="200" height="140"alt="게임">
+                <img src="media2/운동.jpg" width="200" height="140"alt="운동">
+            </article>
+            <article id="timetable">
+                <h2>강의시간표</h2>
+                <hr>
+                <table border="1">
+                    <caption>강의시간표</caption>
+                    <thead>
+                        <tr><th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th> </tr>
+                    </thead>
+                    <tbody>
+                        <tr><th>10시-13시</th><th>-</th><th>-</th><th>컴퓨터과학개론</th><th>프로그래밍언어실습</th><th>-</th> </tr>
+                        <tr><th>2시-5시</th><th>-</th><th>-</th><th>인터넷콘텐츠</th><th>-</th><th>-</th> </tr>
+                        <tr><th>4시-6시</th><th>sw개발문제해결능력</th><th>-</th><th>-</th><th>-</th><th>-</th> </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <h2>마무리</h2>
+            <a href="file:///C:/webcontents/2026106924/%EC%84%A4%EB%AC%B8%EC%A7%80.html">설문조사</a>
+            <p>copyright 2026 by MYEONGJI COLLEGE</p>
+        </footer> 
     </body>
-</html>
+</html>    
+        
